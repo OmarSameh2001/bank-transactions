@@ -1,0 +1,75 @@
+/* Main.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #d5fffd;
+    padding-bottom: 5vh;
+  }
+  
+  .heading {
+    text-decoration: underline;
+  }
+  
+  .chart-button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .filter-container {
+    margin-bottom: 10px;
+  }
+  
+  .filter-label {
+    margin-right: 5px;
+  }
+  
+  .filter-input {
+    margin-right: 10px;
+  }
+  
+  .clear-button,
+  .toggle-button {
+    margin-left: 1px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .toggle-button {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #004181;
+    color: white;
+    cursor: text;
+  }
+  
+  tr:hover {
+    background-color: #004181;
+    color: white;
+    cursor: pointer;
+  }
+  
